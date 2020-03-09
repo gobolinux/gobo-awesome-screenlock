@@ -15,7 +15,7 @@ local function draw_icon(surface, isalive)
    local y = 0.1
    local keyw = 0.1
    local keyh = 0.6
-   cr:set_source_rgb(1, 0.68, 0.26)
+   cr:set_source_rgb(0.8, 0.8, 0.8)
    cr:rectangle(x, y, keyw, keyh)
 
    -- Key cuts
