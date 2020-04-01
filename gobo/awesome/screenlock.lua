@@ -68,7 +68,7 @@ function screenlock.new()
    }
 
    widget.configure = function(self, seconds)
-      os.execute("xset s " .. seconds .. " 5")
+      -- os.execute("xset s " .. seconds .. " 5")
       os.execute("BackgroundExec xss-lock -n /usr/lib/xsecurelock/dimmer -l -- xsecurelock")
    end
 
